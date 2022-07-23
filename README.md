@@ -2,6 +2,11 @@
 
 Evento realizado pela Alura entre os dias 18/07/2022 e 25/07/2022.
 
+<p align="center">
+    <img src="https://img.shields.io/badge/Java-green"/>
+    <img src="https://img.shields.io/github/last-commit/Samuscosta/alura-imersao-java"/>
+</p>
+
 ## Aula 1
 
 Desafios 
@@ -20,5 +25,3 @@ Desafios
     <p align="center">Aula 1</p>
     <img src="/resources/resultados/aula_1.png" alt="logo" width="500"/>
 </h1>
-
-<img src="https://img.shields.io/badge/Java-green"/>
