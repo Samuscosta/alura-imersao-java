@@ -21,7 +21,6 @@ public class JsonParser {
         List<Map<String, String>> dados = new ArrayList<>();
 
         for (String item : items) {
-
             Map<String, String> atributosItem = new HashMap<>();
 
             Matcher matcherAtributosJson = REGEX_ATRIBUTOS_JSON.matcher(item);

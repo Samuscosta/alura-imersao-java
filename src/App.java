@@ -25,11 +25,12 @@ public class App {
 
         // exibir e manipular os dados 
         for (Map<String,String> filme : listaDeFilmes) {
-            System.out.println(ANSI_NEGRITO + "Título: " + ANSI_REDEFINIDO + filme.get("title"));
-            System.out.println(ANSI_NEGRITO + "Cartaz: " + ANSI_REDEFINIDO + filme.get("image"));
+            System.out.println(ANSI_NEGRITO + "Nome: " + ANSI_REDEFINIDO + filme.get("name"));
+            System.out.println(ANSI_NEGRITO + "Imagem: " + ANSI_REDEFINIDO + filme.get("image"));
 
             float rating = Float.parseFloat(filme.get("imDbRating"));
-            System.out.println(ANSI_NEGRITO + "Classificação: " + ANSI_REDEFINIDO + ANSI_FUNDO_AMARELO + ANSI_TEXTO_AZUL + rating + ANSI_REDEFINIDO);
+            System.out.println(ANSI_NEGRITO + "Classificação: " + ANSI_REDEFINIDO 
+                    + ANSI_FUNDO_AMARELO + ANSI_TEXTO_AZUL + rating + ANSI_REDEFINIDO);
 
             System.out.println();
         }
